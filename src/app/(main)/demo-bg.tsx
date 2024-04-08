@@ -4,6 +4,7 @@ import { AuroraBackground } from "@/components/ui/aurora-bg";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import React from "react";
+import { AnimatedTooltipPreview } from "./demo-tooltip";
 
 export function AuroraBackgroundDemo() {
   return (
@@ -17,7 +18,7 @@ export function AuroraBackgroundDemo() {
           ease: "easeInOut",
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4">
-        <div className="text-5xl tracking-tighter md:text-8xl font-bold  text-center">
+        <div className="text-5xl tracking-tight md:text-8xl font-extrabold  text-center">
           I&apos;m Ilham Akbar
         </div>
         <div className="font-extralight text-base md:text-5xl  py-4">
@@ -26,6 +27,9 @@ export function AuroraBackgroundDemo() {
         <Button className="rounded-full" size={"lg"}>
           Download Resume
         </Button>
+        <div className="absolute pt-[40rem]">
+          <AnimatedTooltipPreview />
+        </div>
       </motion.div>
     </AuroraBackground>
   );

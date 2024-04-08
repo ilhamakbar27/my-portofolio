@@ -21,11 +21,19 @@ export function HeroScrollDemo() {
                 duration: 0.8,
                 ease: "easeInOut",
               }}
-              className="text-4xl pb-20 font-semibold text-white ">
-              <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                Experiences
+              className="text-4xl pb-10 font-semibold  tracking-wide text-white ">
+              <span className="text-4xl tracking-tight  md:text-[4rem] font-extrabold mt-1 leading-none">
+                I'm a Fullstack Developer
+              </span>{" "}
+              <span className="max-md:hidden  ">
+                based in Indonesia. In my dynamic 1+ years as a software
+                developer, I've engaged in diverse areas, from coding efficiency
+                to elevating user experiences. My journey includes front-end
+                development, software architecture, and refining app UI/UX. I
+                take pride in navigating various roles in this ever-evolving
+                tech landscape.
               </span>
+              <br />
             </motion.h1>
           </>
         }>
